@@ -8,6 +8,49 @@
 </head>
 <body>
     <h1>Registration Form</h1>
-    
+    <div> 
+        <label> First Name: * </label></label><input type="text" name = "First Name">
+    </div>
+    <div> 
+        <label> Last Name: * </label></label><input type="text" name = "Last Name">
+    </div>
+    <div>
+        <label> Email Address: * </label></label><input type="text" name = "Email Address">
+    </div>
+    <div>
+        <label> Password: * </label></label><input type="text" name = "Password">
+    </div>
+    <div>
+        <label> Confirm Password: * </label></label><input type="text" name = "Confirm Password">
+    </div>
+    <div>
+        <label> Birthday: </label></label><input type="date" name = "dob">
+    </div>
+    <h2>Gender Identity:</h2>
+    <div> 
+        <label> Male </label></label><input type="radio" name = "Male">
+        <label> Female </label></label><input type="radio" name = "Female">
+        <label> Non-binary </label></label><input type="radio" name = "Non-binary">
+        <label> I prefer not to answer </label></label><input type="radio" name = "I prefer not to answer">
+    </div>
+    <h3>A short description about myself:</h3>
+    <div>
+        <textarea name = "comment" cols="20" rows="4"> </textarea>
+    </div>
+    <div>
+        <label> Favorite Language: </label></label>
+        <select name = "Favorite language">
+            <option>HTML</option>
+            <option>JavaScript</option>
+            <option>C#</option>
+            <option>CSS</option>
+        </select>
+    </div>
+    <div>
+        <input type ="checkbox" name = "accept" id="accept">
+        <label for = "accept">Yes, I would like to receive periodic email updates</label>
+    </div>
+<input tpye = "submit" value = "Create Account">
+<h4>* Indicates a required field</h4>
 </body>
 </html>
