@@ -4,5 +4,12 @@
     border: 2px solid teal;
     border-radius: 20px;
     font-size: 300%;
-    border-spacing: 2000px;
+}
+
+.Plus{
+    color: white;
+    margin: 60px;
+    border: 20px solid green;
+    border-radius: 50%;
+    font-size: 300%;
 }
