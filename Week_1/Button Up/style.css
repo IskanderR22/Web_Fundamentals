@@ -1,6 +1,8 @@
 .Search{
-    background-color: white;
+    color: teal;
     margin: 60px;
-    border: 20px solid green;
-    border-radius: 6px;
+    border: 2px solid teal;
+    border-radius: 20px;
+    font-size: 300%;
+    border-spacing: 2000px;
 }
