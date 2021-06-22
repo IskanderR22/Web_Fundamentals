@@ -1,3 +1,21 @@
 h1{
     background-color: black;
+    color: white;
+}
+span{
+    color: skyblue;
+}
+
+h2 {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+h3{
+    background-color: dodgerblue;
+    color: black;
+    text-decoration: underline;
+    text-align: right;
 }
