@@ -1,3 +1,6 @@
 .Search{
-    margin: 200px;
+    background-color: white;
+    margin: 60px;
+    border: 20px solid green;
+    border-radius: 6px;
 }
