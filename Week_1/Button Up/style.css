@@ -10,8 +10,15 @@
 .Plus{
     background-color: green;
     color: white;
-    margin: 60px;
+    margin-left: 60px;
     border: 20px solid green;
     border-radius: 50%;
     font-size: 300%;
+}
+
+.Create{
+    background-color: blue;
+    color: white;
+    margin-left: 60px;
+    border: 2px solid black;
 }
