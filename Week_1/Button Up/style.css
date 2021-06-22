@@ -1,4 +1,5 @@
 .Search{
+    background-color: white;
     color: teal;
     margin: 60px;
     border: 2px solid teal;
@@ -7,9 +8,10 @@
 }
 
 .Plus{
+    background-color: green;
     color: white;
     margin: 60px;
     border: 20px solid green;
-    border-radius: 50%;
+    border-radius: 70%;
     font-size: 300%;
 }
