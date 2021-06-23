@@ -11,3 +11,23 @@
     background-color: darkolivegreen;
     color: white;
 }
+
+.rowtwo{
+    display: flex;
+}
+
+.col-2{
+    flex: 2;
+    padding: 20px;
+    margin: 10px;
+    background-color: darkolivegreen;
+    color: white;
+}
+
+.col-3{
+    flex: 3;
+    padding: 20px;
+    margin: 10px;
+    background-color: darkolivegreen;
+    color: white;
+}
