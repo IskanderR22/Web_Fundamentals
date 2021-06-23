@@ -1,0 +1,45 @@
+#header{
+    text-align: center;
+    font-size: 5em;
+
+}   
+.container{
+    background-color: grey;
+    margin: 0px auto;
+    width: 900px;
+    height: 966px;
+}
+
+
+.rowfirst{
+    margin: 20px;
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rowsecond{
+    margin: 20px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rowthird{
+    margin: 20px;
+    background-color: slategray ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Image{
+    height: 200px;
+    margin: 20px;
+}
+
+footer{
+    text-align: center;
+}
