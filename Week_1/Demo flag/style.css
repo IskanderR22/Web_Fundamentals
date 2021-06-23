@@ -1,0 +1,30 @@
+.container{
+    min-width: 1000px;
+    min-height: 1000px;
+    outline: 1px solid black;
+}
+
+.blue-box{
+    background-color: blue;
+    width: 500px;
+    height: 400px;
+    display: inline-block;
+}
+
+.row{
+    background-color: red;
+    height: 57px;
+    width: 751px;
+    margin-bottom: 58px; 
+    display: inline-block;
+    vertical-align:top;
+}
+
+.red-line{
+    background-color: red;
+    width: auto;
+    height: 57px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+
+}
