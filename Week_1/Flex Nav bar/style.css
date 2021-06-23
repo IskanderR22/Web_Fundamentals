@@ -21,6 +21,7 @@
 .nav-links > li > a {
     margin: 20px;
     color:lightgray;
+    text-decoration: none
 }
 
 .nav-links > li > .active{
