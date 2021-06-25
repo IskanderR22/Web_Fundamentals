@@ -173,7 +173,6 @@
 
 .contentList{
     display: flex;
-    flex-flow: wrap;
 
 }
 
@@ -182,12 +181,20 @@
     width: 30px;
 }
 
+.nameTodd{
+    margin: 10px 22px 20px 0px;
+}
+
+.namePhil{
+    margin: 10px 30px 20px 0px;
+}
+
 .namePerson{
-    margin: 10px 40px 20px 0px;
+    margin: 5px 0px 0px 0px;
 }
 
 .buttonChoice{
-    margin: 10px 20px 20px 10px;
+    margin: 10px -20px 20px 40px;
     width: 30px;
 }
 
