@@ -14,11 +14,10 @@
 .nav-links{
     display: flex;
     align-items: center;
-    margin-left: 600px;
 }
 
 .nav-links > li > a {
-    margin: 20px;
+    margin: 0px 20px;
     color:lightgray;
     text-decoration: none
 }
