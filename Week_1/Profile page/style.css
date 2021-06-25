@@ -7,7 +7,6 @@
 .main-page{
     width: 1300px;
     min-height: 300px;
-    outline: 5px solid black;
     margin: 0px auto;
 }
 
@@ -41,6 +40,11 @@
 
 .nav-links > li > .active{
     color: white;
+    margin-left: 20px;
+}
+
+.nav-links > li > .find{
+    margin-right: 157px;
 }
 
 .nav-links > li{
@@ -67,12 +71,12 @@
 .main-content{
     width: 45%;
     height: 720px;
-    margin: 30px 20px 30px 150px;
+    margin: 30px 20px 30px 190px;
 }
 
 .side-content{
 
-    width: 25%;
+    width: 24%;
     height: 690px;
     margin-left: 0px;
 }
@@ -142,9 +146,14 @@
     margin-left: 15px;
 }
 
-.education > h2 {
+.border > h2{
     padding: 10px;
     margin-left: 22px;
+
+}
+
+.date{
+    color: grey;
 }
 
 /* Start of side-content */
@@ -162,6 +171,26 @@
     padding: 20px;
 }
 
-.todd{
+.contentList{
     display: flex;
+    flex-flow: wrap;
+
+}
+
+.imageProfile{
+    margin: 10px 10px 20px 10px;
+    width: 30px;
+}
+
+.namePerson{
+    margin: 10px 40px 20px 0px;
+}
+
+.buttonChoice{
+    margin: 10px 20px 20px 10px;
+    width: 30px;
+}
+
+.viewMore{
+    margin: 10px 0px 10px 10px;
 }
