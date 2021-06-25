@@ -5,10 +5,163 @@
 }
 
 .main-page{
-    width: 1200px;
+    width: 1300px;
     min-height: 300px;
     outline: 5px solid black;
     margin: 0px auto;
 }
 
 /* Start of Nav */
+
+.nav{
+    height: 65px;
+    background-color: #353536;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+.nav-title{
+    color: white;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+.nav-links > li > a {
+    margin: 0px 20px;
+    color:lightgray;
+    text-decoration: none
+}
+
+.nav-links > li > .active{
+    color: white;
+}
+
+.nav-links > li{
+    list-style: none;;
+}
+
+.nav-links > li > .btn {
+    margin-left: 140px  ;
+    background-color: teal;
+    color: white;
+    border:black;
+    border-radius: 2px;
+    border-style: solid;
+    box-shadow: 5px 10px black;
+}
+
+/* Start of main-body */
+
+.main-body{
+    display: flex;
+
+}
+
+.main-content{
+    width: 45%;
+    height: 720px;
+    margin: 30px 20px 30px 150px;
+}
+
+.side-content{
+
+    width: 25%;
+    height: 690px;
+    margin-left: 0px;
+}
+
+/* Start of user card */
+
+.topbar{
+    width: 100%;
+    height: 127px;
+    background-color: teal;
+}
+
+.border{
+    border-style: solid;
+    border-width: 3px;
+    border-top: none;
+    padding: 10px;
+    border-color: gainsboro;
+}
+.profile{
+    width: 149px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: -81px 0px -1px 39px;
+}
+
+.info{
+    padding-left: 20px;
+}
+
+.info > h1{
+    margin-top: 20px;
+}
+.location{
+    height: 30px;
+    margin: 0px 20px 0px 0px;
+}
+
+.align{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px 0px 20px 0px;
+}
+.align > h2 {
+    margin: 0px;
+}
+
+.align > a{
+    margin: 0px;
+}
+
+/* Start of education */
+
+.topbar2{
+    margin-top: 30px;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+
+.topbar2 > h2{
+    color: white;
+    padding: 20px;
+    margin-left: 15px;
+}
+
+.education > h2 {
+    padding: 10px;
+    margin-left: 22px;
+}
+
+/* Start of side-content */
+
+.topbar3{
+    margin-top: 30px;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+
+.topbar3 > h2 {
+    color: white;
+    text-align: right;
+    padding: 20px;
+}
+
+.todd{
+    display: flex;
+}
