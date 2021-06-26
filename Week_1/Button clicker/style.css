@@ -1,0 +1,119 @@
+
+
+* {
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.container{
+    width: 800px;
+    height: 580px;
+}
+
+.leftBorder{
+    display: flex;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    padding: 20px;
+}
+
+.rightBorder{
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    padding: 20px;
+}
+
+/* Start of navBar */
+.navBar{
+    display: flex;
+    align-items: center;
+    height: 35px;
+    background-color: grey;
+    padding: 20px;
+}
+
+.titleHead{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#loginButton{
+    background-color: blue;
+    border-color: black;
+    color: white;
+    width: 62px;
+    height: 27px;
+    box-shadow: 5px 5px black;
+}
+
+#loginButton:active{
+    transform: translateY(6px);
+}
+
+#searchBar{
+    border-color: black;
+    width: 290px;
+    height: 25px;
+}
+/* End of navBar */
+
+/* Start of mainPage */
+
+.mainPage{
+    display: flex;
+}
+
+
+/* Start of ninja Box */
+
+.infoNinja{
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    margin: 8px;
+}
+
+.infoNinja > p{
+    padding: 0px
+}
+
+.leftBorder > p{
+    text-align: center;
+    margin-top: 50px;
+    height: 40px;
+}
+
+.ninja{
+    margin: 20px 0px 0px 56px;
+}
+
+
+.ninja2 {
+    margin-top: 20px;
+}
+
+.infoNinja > p{
+    padding: 15px
+}
+
+.firstLikes{
+    margin-top: 20px;
+}
+
+/* Start of Side panel */ 
+
+.sidePanel{
+    width: 280px;
+    margin: 20px 0px 0px 53px;
+}
+
+
+.addButton{
+    border-color: black;
+    background-color:limegreen;
+    color: black;
+    box-shadow: 5px 5px black;
+    
+}
