@@ -83,10 +83,11 @@
     text-align: center;
     margin-top: 50px;
     height: 40px;
+    width: 220px;
 }
 
 .ninja{
-    margin: 20px 0px 0px 56px;
+    margin: 20px 0px 0px 56px
 }
 
 
@@ -100,7 +101,15 @@
 
 .firstLikes{
     margin-top: 20px;
+    background-color:yellow;
+    border-color: black;
+    color: black;
+    width: 80px;
+    height: 27px;
+    box-shadow: 5px 5px black;
+
 }
+
 
 /* Start of Side panel */ 
 
@@ -115,5 +124,7 @@
     background-color:limegreen;
     color: black;
     box-shadow: 5px 5px black;
-    
+    width: 224px;
+    padding: 8px;
+    margin: 20px 0px 0px 0px;
 }
