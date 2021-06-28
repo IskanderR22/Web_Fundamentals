@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liking Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Network</h1>
+        </div>
+        <h1 id=subHeader>Your Feed</h1>
+        <div class="mainContent">
+            <div class="avatarBox">
+                <div class="border">
+                <img src="images/user-circle.png" alt="user" class="userImg">
+                <a href="">Add an avatar</a>
+                <h2 class="name">Iskander Rangel</h2>
+                </div>
+            </div>
+            <div class="feedList">
+                <div class="border2">
+                <div class="sideBox">
+                    <h2>Neil M</h2>
+                    <p id="likes1">9 likes(s)</p>
+                    <button class="likeButton" onclick="addFirst()">Like</button>
+                </div>
+                    <p class="comment">I just set up this new discord bot, let me <br> know what you all think. <a href="">link</a></p>
+                </div>    
+                <div class="secondBox">
+                    <div class="border2">
+                    <div class="sideBox">
+                        <h2>Nichole K</h2>
+                        <p id="likes2">12 likes(s)</p>
+                        <button class="likeButton" onclick="addSecond()">Like</button>
+                    </div>
+                        <p class="comment">Just finished my <a href="">next comic</a>, check it out.</p>
+                    </div>
+                </div>
+                <div class="thirdBox">
+                    <div class="border2">
+                    <div class="sideBox">
+                        <h2>Jim R</h2>
+                        <p id="likes3">9 likes(s)</p>
+                        <button class="likeButton" onclick="addThird()">Like</button>
+                    </div>
+                        <p class="comment">I can't stop listening to the <a href="">new albulm</a>.<br> Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
