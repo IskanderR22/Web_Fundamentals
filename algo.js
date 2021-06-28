@@ -115,7 +115,7 @@ var pizza = {
     "sauce" :  "alfredo",
     "topping" : ["chicken", "basil", "bacon"],
     "slices" : 8,
-    "vegetarian" : false
+    "vegetarian" : false,
     "pizzaInfo" : function(){ //This function within an object doesn't need a name for the function
         console.log("Crust: " + pizza.crust)
         console.log("Sauce: " + pizza.sauce)
@@ -140,8 +140,8 @@ var pizza2 = {
     "sauce" :  "alfredo",
     "topping" : ["chicken", "basil", "bacon"],
     "slices" : 8,
-    "vegetarian" : false
-    "Info" : function() { //This function within an object doesn't need a name for the function
+    "vegetarian" : false,
+    "pizzaInfo" : function() { //This function within an object doesn't need a name for the function
         console.log(this)
         console.log("Crust: " + this.crust)
         console.log("Sauce: " + this.sauce)  //the "this" syntax will pull values from the entire object, without needing to console.log
