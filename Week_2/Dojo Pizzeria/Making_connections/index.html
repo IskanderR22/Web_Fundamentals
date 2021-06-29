@@ -33,7 +33,7 @@
                     <h4>Master of shadows and the Internet!</h4>
                     <div class="align">
                         <img class = "location" src="images/gear.png" alt="gear">
-                        <a href=""><button onclick="changeName()">edit profile</button></a>
+                        <a href="#" onclick="changeName()">edit profile</a>
                     </div>
                     
                 </div>
@@ -50,17 +50,17 @@
             <div class="side-content">
                 <div class="topbar3"> <button class="buttonOne">2</button><h2>Connection Requests</h2></div>
                 <div class= "border">
-                <div class="contentList">
+                <div id="topConnection" class="contentList">
                     <img class="imageProfile" src="images/todd-s.jpg" alt="Todd">
                     <h2 class="nameTodd">Todd E</h2>
-                    <img class="buttonChoice" src="images/accept-circle.png" alt="">
-                    <img class="buttonChoice" src="images/close-circle.png" alt="">
+                    <img onclick="removeTop(this)" id="firstAccept" class="buttonChoice" src="images/accept-circle.png" alt="">
+                    <img onclick="removeTop(this)" class="buttonChoice" src="images/close-circle.png" alt="">
                 </div>
-                <div class="contentList">
+                <div id="bottomRequest" class="contentList">
                     <img class="imageProfile" src="images/phil-s.jpg" alt="Todd">
                     <h2 class="namePhil">Phil K</h2>
-                    <img class="buttonChoice" src="images/accept-circle.png" alt="">
-                    <img class="buttonChoice" src="images/close-circle.png" alt="">
+                    <img onclick="removeBottom(this)" id="secondAccept" class="buttonChoice" src="images/accept-circle.png" alt="">
+                    <img onclick="removeBottom(this)" class="buttonChoice" src="images/close-circle.png" alt="">
                 </div>
                 </div>
                 <div class="topbar3"> <button class="buttonTwo">500+</button><h2>Your Connections</h2></div>
@@ -88,6 +88,6 @@
             </div>
         </div>
     </div>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
