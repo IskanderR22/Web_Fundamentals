@@ -19,7 +19,6 @@ function removeTop(imgTag){
         var buttonTwo = document.querySelector(".buttonTwo");
         buttonTwo.innerText = connections;
     }
-
 }
 
 
