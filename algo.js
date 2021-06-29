@@ -152,3 +152,90 @@ var pizza2 = {
 }
 
 pizza2.pizzaInfo();
+
+
+
+// Algos Array of Objects 06/29/2021
+
+
+var monster = {
+    "id": 1,
+    "name" : "Bulbasaur",
+    "types": ["poisen", "grass"]    
+}
+
+console.log(monster.name) //Both of these will print the monster name
+monster.name
+
+monster.types[1] //Will print grass
+
+// Object set as an Array with Objects in that Array
+
+var pokémon = [
+    { "id": 1,   "name": "Bulbasaur",  "types": ["poison", "grass"] }, //Index of 0
+    { "id": 5,   "name": "Charmeleon", "types": ["fire"] }, //Index of 1
+    { "id": 9,   "name": "Blastoise",  "types": ["water"] }, //Index of 2
+    { "id": 12,  "name": "Butterfree", "types": ["bug", "flying"] }, //Index of 3
+    { "id": 16,  "name": "Pidgey",     "types": ["normal", "flying"] }, //Index of 4
+    { "id": 23,  "name": "Ekans",      "types": ["poison"] }, //Index of 5
+    { "id": 24,  "name": "Arbok",      "types": ["poison"] }, //Index of 6
+    { "id": 25,  "name": "Pikachu",    "types": ["electric"] }, //Index of 7
+    { "id": 37,  "name": "Vulpix",     "types": ["fire"] }, //Index of 8
+    { "id": 52,  "name": "Meowth",     "types": ["normal"] }, //Index of 9
+    { "id": 63,  "name": "Abra",       "types": ["psychic"] }, //Index of 10
+    { "id": 67,  "name": "Machamp",    "types": ["fighting"] }, //Index of 11
+    { "id": 72,  "name": "Tentacool",  "types": ["water", "poison"] }, //Index of 12
+    { "id": 74,  "name": "Geodude",    "types": ["rock", "ground"] }, //Index of 13
+    { "id": 87,  "name": "Dewgong",    "types": ["water", "ice"] }, //Index of 14
+    { "id": 98,  "name": "Krabby",     "types": ["water"] }, //Index of 15
+    { "id": 115, "name": "Kangaskhan", "types": ["normal"] }, //Index of 16
+    { "id": 122, "name": "Mr. Mime",   "types": ["psychic"] }, //Index of 17
+    { "id": 133, "name": "Eevee",      "types": ["normal"] }, //Index of 18
+    { "id": 144, "name": "Articuno",   "types": ["ice", "flying"] }, //Index of 19
+    { "id": 145, "name": "Zapdos",     "types": ["electric", "flying"] }, //Index of 20
+    { "id": 146, "name": "Moltres",    "types": ["fire", "flying"] }, //Index of 21
+    { "id": 148, "name": "Dragonair",  "types": ["dragon"] } //Index of 22
+];
+
+//Iterate through the pokemon Array and prining the pokemon with an id greater than 99
+
+for(var i=0; i<pokémon.length; i++) { //This checks every index in the Array 
+    if(pokémon[i].id > 99) { //This is the same as when we were looking for monster.type[1] 
+        console.log(pokémon[i].name); //This will print any id greater than 99 
+    }
+}
+
+//Console.log the pokémon objects whose id is evenly divisible by 3
+
+
+for(var i=0; i<pokémon.length; i++) { 
+    if(pokémon[i].id % 3 == 0) {  
+        console.log(pokémon[i]); //This prints out the entire Object 
+    }
+}
+
+//Console.log the pokémon objects that have more than one type
+
+for(var i=0; i<pokémon.length; i++) { 
+    if(pokémon[i].types.length > 1) {  
+        console.log(pokémon[i]); //This prints out the entire Object
+    }
+}
+
+//Console.log the names of the pokémon whose only type is "poison"
+
+for(var i=0; i<pokémon.length; i++) { 
+    if(pokémon[i].types.length == 1 && pokémon[i].types[0] == "poison") {  //This checks if the types is only equal to one value "poison"
+        console.log(pokémon[i].name); 
+    }
+}
+
+//Console.log the first type of all the pokémon whose second type is "flying"
+
+for(var i=0; i<pokémon.length; i++) { 
+    if( pokémon[i].types.length > 1) { 
+        if(pokémon[i].types[1] == "flying"){  //This checks if the index of 1 in the Array is == to "flying" 
+            console.log(pokémon[i].types[0]);
+        } 
+    }
+}
