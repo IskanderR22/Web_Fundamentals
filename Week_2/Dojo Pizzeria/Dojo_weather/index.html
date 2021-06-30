@@ -11,13 +11,13 @@
     <div id="container">
         <div id="navBar">
             <h1>DojoWeather</h1>
-            <h2>Burbank</h2>
-            <h2>Chicago</h2>
-            <h2>Dallas</h2>
+            <h2 onclick="alertWeather()">Burbank</h2>
+            <h2 onclick="alertWeather()">Chicago</h2>
+            <h2 onclick="alertWeather()">Dallas</h2>
         </div>
         <div id="headerTop">
             <h1>San Jose</h1>
-            <form>
+            <form class="list">
                 <label>Show temperature in</label>
                 <select>
                 <option value = "C">&#176;C</option>
@@ -67,15 +67,12 @@
                 
             </div>
         </div>
-        
-
-
-
-
-
-
-
-
+        <div class="cookie">
+            <img src="images/assets/cookie.png" alt="cookie_img">
+            <p><strong>Stop! Cookie time</strong><br> We use cookies (sadly not the edible ones) to personalize <br>
+            content and ads, to provide social media features and to <br> analyse our traffic. <a href="">Read more...</a></p>
+            <button onclick="removeCookie()" class="acceptButton">I Accept</button>
+        </div>
     </div>
 
 
