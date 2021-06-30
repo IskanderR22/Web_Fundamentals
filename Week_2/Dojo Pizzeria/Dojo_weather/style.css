@@ -1,0 +1,107 @@
+
+/* start of page */
+
+* {
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+/* Start of #container */
+
+#container {
+    width: 1050px;
+    min-height: 500px;
+}
+
+/* Start of #navBar */
+
+#navBar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color :#B2C2D8;
+    color: white;
+    height: 65px;
+}
+
+#navBar > h1{
+    margin: 0px 400px 0px 55px;;
+}
+
+#navBar > h2{
+    margin: 0px 5px 0px 20px;
+}
+
+/* Start of #headerTop */
+
+#headerTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 943px;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    border-bottom: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+#headerTop > h1 {
+    margin: 25px 645px 30px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Start of #borderLine */
+
+#borderLine{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+/* Start of .pillars */
+
+.pillars{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 35px;
+}
+
+/* Start of .day */
+
+.day{
+    width: 200px;
+    height: 260px;
+    padding: 10px 20px 10px 20px;
+    margin: 25px 55px 0px 20px;    
+    text-align: center;
+    background-color: lightgray;
+}
+
+.day > h2, img, h3{
+    margin-bottom: 20px;
+}
+
+.img{
+    align-items: center;
+    border-radius: 50%;
+    width: 115px;
+}
+
+/* Start of .temperatures */
+
+.temperatures{
+    display: flex;
+}
+
+.red{
+    color: red;
+    font-size: 25px;
+}
+
+.blue{
+    color: blue;
+    font-size: 25px;
+}
