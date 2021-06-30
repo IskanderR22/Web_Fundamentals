@@ -1,0 +1,213 @@
+
+* {
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+/* Start of .container */
+
+.container{
+    width: 1200px;
+    min-height: 500px;
+}
+
+.cookieBar,
+.listSucculents,
+.discoverContainer,
+.mainContent,
+.itemList,
+.searchBarContainer,
+.navBar{
+    display: flex;
+}
+
+
+/* Start of .navBar */
+
+.navBar{
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+
+#icon{
+    background-color: #19CBAF;
+    color: white;
+    width: 50px;
+    margin: 0px 20px 0px 0px;
+}
+
+.navBar > h1{
+    font-size: 55px;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.searchBarContainer{
+    border: black;
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 3px;
+    padding: 10px;
+    padding-bottom: 15px;
+    height: 38px;
+}
+
+#search{
+    width: 545px;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+}
+
+#cartImg{
+    width: 50px;
+}
+
+/* Start of .itemList */
+
+.itemList{
+    width: 97%;
+    margin-top: 20px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    border-bottom: solid;
+    border-width: 3px;
+}
+
+.itemList > h2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.alignH2{
+    margin-left: 0px;
+}
+
+.alignMore{
+    margin-right: 0px;
+}
+
+/* Start of #headerTop */
+
+#headerTop{
+    justify-content: space-evenly;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Ges, 'Times New Roman', serif;
+
+}
+
+/* Start of .mainContent */
+
+.mainContent{
+    width: 97%;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.discoverContainer{
+    width: 65%;
+    height: 342px;
+    margin: 0px;
+}
+
+
+.discoverContainer > p{
+    width: 50%;
+    background-color: #19CBAF;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    height:  322px;
+    font-size: 38px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.mainPicture{
+    width: 60%;
+}
+
+.soothingAloe{
+    width: 32%;
+    margin: 0px;
+}
+
+.aloeText,
+#sidePicture{
+    width: 100%
+
+}
+
+.aloeText{
+    background-color: #19CBAF;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 0px;
+    height: 55px;
+    font-size: 30px;
+    padding-top: 14px;
+}
+
+/* Start of .ListSucculents */
+
+.listSucculents{
+    padding-top: 40px;
+    padding-left: 15px;
+    margin-top: 20px;
+    width: 96%;
+    height: 264px;
+    background-color: #ACE3D6;
+}
+
+.pillarImg{
+    width: 150px;
+    border-radius: 50%;
+    border-color: none;
+    border-style: none;
+}
+
+.pillarText{
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Start of .cookieBar */
+
+.cookieBar{
+    position:fixed;
+    bottom: 0;
+    right: 99px;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    background-color: white;
+}
+
+.cookieBar > p{
+    width: 40%;
+    font-weight: bold;
+}
+
+.acceptButton{
+    width: 113px;
+    height: 37px;
+    font-size: 18px;
+    border-style: bold;
+    border-color: black;
+    background-color: #19CBAF;
+    color: white;
+    box-shadow: 5px 5px black;
+}
