@@ -245,7 +245,7 @@ for(var i=0; i<pokémon.length; i++) {
 
 var arr2d = [[2, 5, 8],
             [3, 6, 1],
-            [5, 7, 7] ];
+            [5, 7, 7]];
 
 // We can console.log the `8` in this array if we
 console.log(arr2d[0][2]);
@@ -258,7 +258,7 @@ console.log(arr2d[0][2]);
 function flatten(arr2d) {
     var flat = [];
     for(var i = 0; i < array.length; i++){
-        for(var x = 0; x < arr2d[i].length; x++){
+        for(var x = 0; x < arr2d[i].length; x++){ //You always go through the inner for loop first and when it's done go back to the top one.
             flat.push(arr2d[i][x]);
         }
     }
